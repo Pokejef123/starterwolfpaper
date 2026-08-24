@@ -1,0 +1,10 @@
+name: StarterWolf
+version: '2.0.0'
+main: org.pokejef.starterwolfpaper.Starterwolfpaper
+api-version: '1.21'
+author: pokejef143
+description: Immortal Alpha RPG Companion with mortal pack archetypes and GUI management.
+commands:
+  starterwolf:
+    description: Starter Wolf commands
+    usage: /starterwolf <pack|reload|addxp <amount>>

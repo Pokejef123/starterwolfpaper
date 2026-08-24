@@ -1,0 +1,37 @@
+# ==========================================
+# StarterWolf RPG Configuration
+# ==========================================
+
+levels:
+  alpha-max-level: 20
+  unawakened-max-level: 10
+  archetype-max-level: 20
+  xp-base-requirement: 50
+  xp-per-level-multiplier: 25
+
+stats:
+  pup-base-scale: 0.50
+  alpha-max-scale: 5.0
+  archetype-max-scale: 4.0
+  base-health: 40.0
+  health-per-level: 2.0
+  health-per-vitality-point: 4.0
+  base-damage: 4.0
+  damage-per-level: 0.5
+  damage-per-ferocity-point: 0.75
+  base-speed: 0.30
+  speed-per-swiftness-point: 0.02
+
+abilities:
+  devour-heal-percentage: 0.30
+  blessing-aura-radius-blocks: 10.0
+  pack-tactics-damage-bonus-per-wolf: 0.75
+  shadowfang-execute-threshold: 0.15
+  bloodhound-treasure-chance: 0.05
+  bloodhound-loot-radius-blocks: 8.0
+  shaman-heal-interval-seconds: 4
+
+satchel:
+  base-slots: 9
+  slots-gained-per-pack-member: 3
+  max-total-slots: 54
